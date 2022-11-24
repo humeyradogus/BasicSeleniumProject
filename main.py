@@ -5,7 +5,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as ec
-
+"""
+BASIC SELENIUM PROJECT
+"""
 class Lcwakiki():
     url = "https://www.lcwaikiki.com/tr-TR/TR"
     CATEGORY_PAGE = (By.CSS_SELECTOR, ".menu-header-item__title")
